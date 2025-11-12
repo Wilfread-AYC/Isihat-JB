@@ -511,8 +511,7 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    author: Schema.Attribute.Component<'author.author', true> &
-      Schema.Attribute.Required;
+    author: Schema.Attribute.Component<'author.author', true>;
     category: Schema.Attribute.Text & Schema.Attribute.Required;
     content: Schema.Attribute.Blocks & Schema.Attribute.Required;
     cover_image: Schema.Attribute.Media<

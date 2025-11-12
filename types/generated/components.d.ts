@@ -10,8 +10,8 @@ export interface AuthorAuthor extends Struct.ComponentSchema {
     author_image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
-    author_name: Schema.Attribute.String & Schema.Attribute.Required;
-    author_quote: Schema.Attribute.String & Schema.Attribute.Required;
+    author_name: Schema.Attribute.String;
+    author_quote: Schema.Attribute.String;
   };
 }
 

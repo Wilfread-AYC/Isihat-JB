@@ -8,7 +8,7 @@
   "attributes": {
     "author_name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "author_image": {
       "type": "media",
@@ -23,7 +23,7 @@
     },
     "author_quote": {
       "type": "string",
-      "required": true
+      "required": false
     }
   },
   "config": {}

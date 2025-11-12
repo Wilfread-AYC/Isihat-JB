@@ -69,7 +69,7 @@
       "type": "component",
       "component": "author.author",
       "repeatable": true,
-      "required": true
+      "required": false
     }
   }
 }

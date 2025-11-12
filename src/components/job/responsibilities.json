@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_job_responsibilities",
+  "info": {
+    "displayName": "responsibilities"
+  },
+  "options": {},
+  "attributes": {
+    "responsibility": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

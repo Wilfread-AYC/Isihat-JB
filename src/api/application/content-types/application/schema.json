@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "singularName": "application",
+    "pluralName": "applications",
+    "displayName": "Application"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "mobile": {
+      "type": "biginteger",
+      "required": true
+    },
+    "cover_letter": {
+      "type": "text"
+    },
+    "job": {
+      "type": "integer"
+    },
+    "resume": {
+      "type": "integer"
+    }
+  }
+}

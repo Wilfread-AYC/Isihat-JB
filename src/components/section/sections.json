@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "sections",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "subcontent": {
+      "type": "blocks"
+    },
+    "subImages": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_job_benefits",
+  "info": {
+    "displayName": "benefits"
+  },
+  "options": {},
+  "attributes": {
+    "benefit": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_job_list_items",
+  "info": {
+    "displayName": "ListItem"
+  },
+  "options": {},
+  "attributes": {
+    "responsibilities": {
+      "type": "component",
+      "component": "job.responsibilities",
+      "repeatable": false
+    },
+    "requirements": {
+      "type": "component",
+      "component": "job.requirements",
+      "repeatable": true
+    },
+    "benefits": {
+      "type": "component",
+      "component": "job.benefits",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

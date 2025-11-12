@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_job_requirements",
+  "info": {
+    "displayName": "requirements"
+  },
+  "options": {},
+  "attributes": {
+    "requirement": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}
